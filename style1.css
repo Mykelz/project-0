@@ -81,6 +81,11 @@ html {
       border-radius: 20px;
       background-color: #fff;
       }
+      
+      @media (max-width: 600px;) {
+        nav,article {
+          width: 100%
+          height: auto;
 
 
      article
