@@ -8,7 +8,7 @@ html {
   padding: 15px;
   font-size: 13pt;
   margin: 0;
-  font-family: cursive;
+  font-family: 'Handlee' courier;
 
  }
  .section {
@@ -22,6 +22,12 @@ html {
  li {
     margin-bottom: 15px;
     font-weight: bold;
+    font-family: cursive;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
 }
  progress {
     width: 70%;
@@ -59,6 +65,7 @@ progress::-webkit-progress-bar {
     color: #20bcd5;
     text-align: center;
     padding-top: 5px;
+    font-family: cursive;
   }
     .quote{
       text-align: right;
@@ -86,6 +93,7 @@ progress::-webkit-progress-bar {
      padding: 10px;
      padding-right: 40px;
      border-radius: 20px;
+     font-family: cursive;
 
    }
    article {
@@ -108,12 +116,15 @@ progress::-webkit-progress-bar {
     color: #20bcd5;
     text-align: center;
     padding-top: 30px;
+    font-family: cursive;
   }
     #Header h4 {
     font-size: 20pt;
     color: #20bcd5;
     text-align: center;
     padding-top: 30px;
+    font-family: cursive;
+
   }
 
   #Header img{
@@ -132,11 +143,16 @@ progress::-webkit-progress-bar {
   border-radius: 40px;
   
  }
- table {
-  border:2px solid #cecece;
+ table,th, td {
+  border:1px solid #cecece;
   border-collapse: collapse;
   text-align: center;
   table-layout: fixed;
+  font-family: cursive;
+  
+ }
+ table {
+  width: 100%;
  }
 
       @media (max-width: 600px;) {
