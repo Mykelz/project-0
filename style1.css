@@ -8,16 +8,37 @@ html {
   padding: 15px;
   font-size: 13pt;
   margin: 0;
-  font-family:'Handlee' , cursive;
+  font-family: cursive;
 
  }
  .section {
     background-color: #fff;
-    margin-bottom: 15px;
-    border-radius: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     margin-top: 15px;
+    padding-bottom: 10px;
 
  }
+ li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+ progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
  p {
   padding: 0;
   margin: 0;
@@ -39,6 +60,11 @@ html {
     text-align: center;
     padding-top: 5px;
   }
+    .quote{
+      text-align: right;
+      margin-top: 10px;
+      font-size: 12pt;
+    }
   
 
   h2 span {
@@ -46,6 +72,10 @@ html {
     padding: 10px;
   }
   h3 span {
+    border:4px dashed #20bcd5;
+    padding: 10px;
+  }
+  h4 span {
     border:4px dashed #20bcd5;
     padding: 10px;
   }
@@ -70,10 +100,16 @@ html {
    }
    .define {
     font-size: 35px;
-    text-align: center;
+    text-align: left;
    }
 
   #Header h3 {
+    font-size: 20pt;
+    color: #20bcd5;
+    text-align: center;
+    padding-top: 30px;
+  }
+    #Header h4 {
     font-size: 20pt;
     color: #20bcd5;
     text-align: center;
@@ -96,17 +132,19 @@ html {
   border-radius: 40px;
   
  }
- 
+ table {
+  border:2px solid #cecece;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+ }
+
       @media (max-width: 600px;) {
         nav,article {
-          width: 100%
+          width: auto;
           height: auto;
 
 
 
 
-    .quote {
-      text-align: right;
-      margin-top: 10px;
-      font-size: 12pt;
-    }
+ 
