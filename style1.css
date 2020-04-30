@@ -13,9 +13,9 @@ html {
  }
  .section {
     background-color: #fff;
-    padding: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border-radius: 20px;
+    margin-top: 15px;
 
  }
  p {
@@ -39,6 +39,7 @@ html {
     text-align: center;
     padding-top: 5px;
   }
+  
 
   h2 span {
     border: 4px dashed #20bcd5;
@@ -48,6 +49,29 @@ html {
     border:4px dashed #20bcd5;
     padding: 10px;
   }
+   nav {
+     float: left;
+     background-color: #fff;
+     height: 200px;
+     padding: 10px;
+     padding-right: 40px;
+     border-radius: 20px;
+
+   }
+   article {
+        float: right;
+        padding: 10px;
+        width: 70%;
+        text-align: left;
+        background-color:#fff;
+        height: 200px;
+        padding-left: 40px;
+        border-radius: 20px;
+   }
+   .define {
+    font-size: 35px;
+    text-align: center;
+   }
 
   #Header h3 {
     font-size: 20pt;
@@ -72,35 +96,14 @@ html {
   border-radius: 40px;
   
  }
-
-  nav{
-      float: left;
-      width: 26%;
-      height: 200px;
-      padding: 14.6px;
-      border-radius: 20px;
-      background-color: #fff;
-      }
-      
+ 
       @media (max-width: 600px;) {
         nav,article {
           width: 100%
           height: auto;
 
 
-     article
-       {
-        float: right;
-        padding: 10px;
-        width: 70%;
-        text-align: center;
-        font-size: 35px;
-        height: 210px;
-        padding-left: 10px;
-        background-color: #fff;
-        border-radius: 20px;
-             
-      }
+
 
     .quote {
       text-align: right;
