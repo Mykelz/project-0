@@ -8,7 +8,7 @@ html {
   padding: 15px;
   font-size: 12pt;
   margin: 0;
-  font-family: 'Handlee';
+  font-family: velveta;
 
  }
  .section {
@@ -21,7 +21,7 @@ html {
  li {
     margin-bottom: 15px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: velveta;
 }
 .selected {
     background-color: #f36f48;
@@ -51,11 +51,12 @@ progress::-webkit-progress-bar {
 
  
   #Header p {
-    font-size: 15pt;
+    font-size: 13pt;
     color: #3b464c;
     padding-top: 5px;
     padding-bottom: 10px;
     margin: 10px;
+    font-family: velveta;
  
 
   }
@@ -83,15 +84,14 @@ progress::-webkit-progress-bar {
      background-color: #fff;
      height: 200px;
      padding: 10px;
-     font-family: cursive;
-     width: 21%;
+     width: 30%;
      padding-left: 40px;
    }
    
    article {
         float: right;
         padding: 10px;
-        width: 70%;
+        width: 60%;
         text-align: left;
         background-color:#fff;
         height: 200px;
