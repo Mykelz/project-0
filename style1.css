@@ -8,32 +8,55 @@ html {
   padding: 15px;
   font-size: 12pt;
   margin: 0;
-  font-family: velveta;
+  font-family: 'Handlee'  cursive;
 
  }
  .section {
     background-color: #fff;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
-    padding-bottom: 10px;
-
- }
- li {
-    margin-bottom: 15px;
-    font-weight: bold;
-    font-family: cursive;
 }
+
+  .list1{
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+    }
+
+ li {
+    font-weight: bold;
+    float: center;
+    font-family: cursive;
+
+}
+ li a
+ {
+  display:block;
+  text-align:center;
+  padding:5px;
+  text-decoration:none;
+}
+
+
 .selected {
     background-color: #f36f48;
     font-weight: bold;
     color: white;
 }
+
+
+   
+  
+
  progress {
     width: 70%;
     height: 20px;
     color: #3fb6b2;
     background: #efefef;
 }
+
 progress::-moz-progress-bar {
     color: #3fb6b2;
     background: #efefef;
@@ -79,30 +102,9 @@ progress::-webkit-progress-bar {
     }
   
 
-   nav {
-     float: left;
-     background-color: #fff;
-     height: 200px;
-     padding: 10px;
-     width: 30%;
-     padding-left: 40px;
-   }
-   
-   article {
-        float: right;
-        padding: 10px;
-        width: 60%;
-        text-align: left;
-        background-color:#fff;
-        height: 200px;
-        padding-right: 40px;
-       
-
-
-     }
    .define {
     font-size: 30px;
-    text-align: left;
+    text-align: center;
    }
 
   
@@ -125,13 +127,11 @@ progress::-webkit-progress-bar {
 }
 
   #Header img{
-    display: block;
-    margin: auto;
-    width: 150px;
-    height: 150px;
-    margin-top: 20%;
-    padding-top: 10px;
     float: center;
+    display: block;
+    width: 150px;
+    height: 200px;
+    margin: auto;
 
    
   }
@@ -189,9 +189,10 @@ input, textarea {
 }
 
       @media (max-width: 600px;) {
-        nav,article {
+        section {
           width: auto;
           height: auto;
+        }
 
 
 
